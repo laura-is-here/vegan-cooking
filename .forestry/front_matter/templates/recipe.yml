@@ -1,0 +1,25 @@
+---
+label: Recipe
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: featureImg
+  label: featureImg
+- type: text
+  name: youtubeId
+  label: youtubeId
+- type: textarea
+  name: source
+  label: source
+- type: text
+  name: summary
+  label: summary
+- type: list
+  name: ingredients
+  label: ingredients
