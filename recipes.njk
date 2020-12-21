@@ -1,0 +1,12 @@
+---
+layout: "baseof.njk"
+title: "All Recipes"
+---
+
+<div class="top-container">
+  <div>
+    <h2 class="top-header">All Recipes</h2>
+    {% for item in collections.recipe %} {% include "recipeList.njk" %} {%
+    endfor %}
+  </div>
+</div>

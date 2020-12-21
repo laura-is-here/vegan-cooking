@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tiff &amp; Laura's Favorite Recipes</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body class="">
+    <nav
+      class="font-serif bg-gradient-to-r from-gray-100 to-gray-50 md:px-8 px-4 py-2 shadow flex flex-row flex-wrap justify-between items-center sticky top-0 z-20"
+    >
+      <h1 class="italic p-2 mb-0 w-1/2">
+        <a href="/">Vegan Cooking by Tiff & Laura</a>
+      </h1>
+      <ul class="flex flex-row flex-wrap w-1/2 justify-end">
+        <li class="p-2">
+          <a href="/recipes/">Recipes</a>
+        </li>
+        <li class="p-2">
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="w-full p-8 bg-gray-800 text-gray-200">
+      <p class="text-2xl italic font-serif text-center block">
+        For all the love, all the growth, and all the food we've shared across
+        the years...
+      </p>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

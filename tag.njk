@@ -1,0 +1,17 @@
+---
+layout: "baseof.njk"
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+---
+
+<div class="top-container">
+  <div>
+    <h2 class="top-header">Tagged “{{ tag }}”</h2>
+
+    {% set taglist = collections[ tag ] %} {% for item in taglist | reverse %}
+    {% include "recipeList.njk" %} {% endfor %}
+  </div>
+</div>

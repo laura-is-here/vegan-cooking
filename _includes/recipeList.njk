@@ -1,0 +1,43 @@
+<article class="flex mb-6 relative">
+  <div class="p-4 w-2/3 relative z-10">
+    <h3 class="text-xl mb-2 font-bold">
+      <a href="{{ item.url }}">{{ item.data.title }}</a>
+    </h3>
+    <p class="mb-2">{{ item.data.summary }}</p>
+    {% if item.data.source %}
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+      class="text-sm italic border-b-2"
+      href="{{ item.data.source }}"
+      >Original Recipe</a
+    >
+    {% endif %}
+    <ul class="flex flex-row flex-wrap">
+      {% for tag in item.data.tags %} {% if tag != "recipe" %}
+      <li class="p-2 text-sm italic">
+        <a href="/tags/{{ tag }}/">{{ tag }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </div>
+  {% if item.data.featureImg %}
+  <img
+    src="{{ item.data.featureImg }}"
+    class="object-cover w-36 h-36 flex-none p-4 relative z-10"
+  />
+  {% else %}
+  <div class="relative">
+    <img
+      src="/img/not-found-icon.png"
+      class="object-cover w-36 h-36 flex-none p-4 relative bg-gray-100 rounded-xl"
+    />
+    <div
+      class="absolute w-full top-0 text-sm text-center text-gray-200 bg-gray-800 bg-opacity-40 rounded-tr-lg rounded-tl-lg"
+    >
+      No image found
+    </div>
+  </div>
+  {% endif %}
+  <div class="absolute p-8 -mt-2 -mr-2 bg-green-100 z-0 rounded-br-3xl"></div>
+</article>

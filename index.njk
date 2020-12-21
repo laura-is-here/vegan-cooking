@@ -1,0 +1,46 @@
+---
+layout: "baseof.njk"
+title: "Home"
+---
+
+<div class="top-container">
+  <div class="md:w-1/2 md:px-4">
+    <h2 class="top-header">A Few of Our Favorites</h2>
+    {% for item in collections.recipe %} {% include "recipeList.njk" %} {%
+    endfor %}
+  </div>
+  <div class="md:w-1/2 md:px-4">
+    <h2 class="top-header text-center">All Categories</h2>
+    <ul class="flex flex-wrap justify-center px-4 text-center">
+      {% for tag in collections.tagList %}
+      <li
+        class="bg-gray-800 text-gray-200 hover:bg-green-100 hover:text-gray-900 transition-colors duration-500 rounded-3xl m-1"
+      >
+        <h3 class="text-lg py-2 px-4 font-bold">
+          <a href="/tags/{{ tag }}">{{ tag }}</a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2 class="top-header">Notes</h2>
+    <div class="markdown">
+      <ul>
+        <li>Biscuits and Gravy</li>
+        <li>Chili</li>
+        <li>Enchiladas</li>
+        <li>Tacos</li>
+        <li>Spicy Potatoes</li>
+        <li>Noodles</li>
+        <li>Cheesecake</li>
+        <li>Chocolate chip cookies</li>
+        <li>Marys Tofu chik'n</li>
+        <li>Loaded sweet potatoes</li>
+        <li>Loaded baked potatoes</li>
+        <li>Tempeh bacon</li>
+        <li>seitan</li>
+      </ul>
+    </div>
+  </div>
+</div>

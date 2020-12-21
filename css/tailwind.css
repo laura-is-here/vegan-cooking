@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.top-container {
+		@apply max-w-screen-lg p-4 md:px-8 flex flex-row flex-wrap items-start mx-auto;
+	}
+
+	.top-header {
+		@apply font-serif text-4xl mb-6;
+	}
+
+	.markdown p {
+		@apply mb-4;
+	}
+
+	.markdown a {
+		@apply border-b-2;
+	}
+	
+	.markdown ul {
+		@apply pl-4 list-disc list-inside mb-4;
+	}
+
+	.markdown ol {
+		@apply pl-4 list-decimal mb-4;
+	}
+
+	.markdown h3 {
+		@apply font-bold mb-4 text-2xl;
+	}
+
+	.markdown h4 {
+		@apply font-bold mb-4 text-xl;
+	}
+}
