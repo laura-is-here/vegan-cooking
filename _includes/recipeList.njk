@@ -1,6 +1,6 @@
 <article class="flex mb-6 relative">
   <div class="p-4 w-2/3 relative z-10">
-    <h3 class="text-xl mb-2 font-bold">
+    <h3 class="text-xl mb-2 font-bold border-b-2 border-gray-800">
       <a href="{{ item.url }}">{{ item.data.title }}</a>
     </h3>
     <p class="mb-2">{{ item.data.summary }}</p>
@@ -15,7 +15,7 @@
     {% endif %}
     <ul class="flex flex-row flex-wrap">
       {% for tag in item.data.tags %} {% if tag != "recipe" %}
-      <li class="p-2 text-sm italic">
+      <li class="pr-2 py-2 text-sm italic">
         <a href="/tags/{{ tag }}/">{{ tag }}</a>
       </li>
       {% endif %} {% endfor %}
@@ -39,5 +39,7 @@
     </div>
   </div>
   {% endif %}
-  <div class="absolute p-8 -mt-2 -mr-2 bg-green-100 z-0 rounded-br-3xl"></div>
+  <div
+    class="absolute p-8 -mt-2 -mr-2 bg-green-100 bg-opacity-60 z-0 rounded-br-3xl"
+  ></div>
 </article>
