@@ -4,22 +4,27 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: list
-  name: tags
-  label: tags
+  label: Title
 - type: file
   name: featureImg
-  label: featureImg
+  label: Featured Img
 - type: text
   name: youtubeId
-  label: youtubeId
+  label: Video ID from Youtube
+  description: Just the ID number, not the full URL
 - type: textarea
   name: source
-  label: source
+  label: Source URL
+  description: The full URL to the source of the recipe.
 - type: text
   name: summary
-  label: summary
+  label: Summary
 - type: list
   name: ingredients
   label: ingredients
+  config:
+    use_select: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
