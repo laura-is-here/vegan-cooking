@@ -1,39 +1,40 @@
-<article class="flex mb-6 relative bg-gray-50 rounded-xl">
-  <div class="relative z-10">
-    <header class="p-4">
-      <h3 class="text-2xl mb-2 font-serif">
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-      </h3>
-    </header>
-    <section class="px-4 w-10/12 mb-4">
-      <p class="mb-2">{{ item.data.summary }}</p>
-    </section>
-    <footer class="bg-gray-100 w-full py-2 px-4 rounded-tr-xl self-end">
-      {% if item.data.source %}
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        class="text-sm italic border-b-2"
-        href="{{ item.data.source }}"
-        >Original Recipe</a
-      >
-      {% endif %}
-      <ul class="flex flex-row flex-wrap">
-        {% for tag in item.data.tags %} {% if tag != "recipe" %}
-        <li class="pr-2 py-1 text-sm italic">
-          <a href="/tags/{{ tag }}/">{{ tag }}</a>
-        </li>
-        {% endif %} {% endfor %}
-      </ul>
-    </footer>
+<article
+  class="flex flex-col justify-around bg-gray-800 text-gray-200 shadow h-56 rounded"
+>
+  <header class="px-4 py-2 text-right relative z-10">
+    <h3 class="text-xl font-serif leading-none">
+      <a href="{{ item.url }}">{{ item.data.title }}</a>
+    </h3>
+  </header>
+  <section
+    class="px-4 py-2 text-sm text-center bg-gray-700 bg-opacity-50 shadow relative z-10 font-bold"
+  >
+    <p class="">{{ item.data.summary }}</p>
+  </section>
+  <footer class="w-full py-2 px-4 self-end text-xs relative z-10">
+    <ul class="flex flex-row flex-wrap">
+      {% for tag in item.data.tags %} {% if tag != "recipe" %}
+      <li class="pr-2 py-1 text-sm italic">
+        <a href="/tags/{{ tag }}/">{{ tag }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+    {% if item.data.source %}
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+      class="italic border-b-2"
+      href="{{ item.data.source }}"
+      >Original Recipe</a
+    >
+    {% endif %}
+  </footer>
+  {% if item.data.featureImg %}
+  <div class="absolute rounded pr-2 opacity-40">
+    <img
+      src="{{ item.data.featureImg }}"
+      class="object-cover h-56 w-full z-0 rounded"
+    />
   </div>
-  <div class="p-4">
-    <div class="absolute right-0 p-4 mr-12 bg-blue-300 z-0 rounded-full"></div>
-    <div
-      class="absolute right-0 p-2 mr-8 mt-4 border-gray-300 border-2 z-0 rounded-full"
-    ></div>
-    <div
-      class="absolute right-0 p-4 mr-10 mt-8 border-gray-300 bg-gray-300 border-2 z-0 rounded-full"
-    ></div>
-  </div>
+  {% endif %}
 </article>
