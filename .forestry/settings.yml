@@ -9,6 +9,8 @@ sections:
   label: Recipes
   create: all
   match: "**/*"
+  templates:
+  - recipe
 upload_dir: img
 public_path: img
 front_matter_path: ''
