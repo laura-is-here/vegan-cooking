@@ -28,3 +28,9 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: featureImgAttr
+  type: text
+  config:
+    required: false
+  label: Image Credit
+  description: The URL of the site to credit for featured image.
