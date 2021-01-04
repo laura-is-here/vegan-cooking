@@ -11,7 +11,13 @@ permalink: /tags/{{ tag }}/
   <div>
     <h2 class="top-header">Tagged “{{ tag }}”</h2>
 
-    {% set taglist = collections[ tag ] %} {% for item in taglist | reverse %}
-    {% include "recipeList.njk" %} {% endfor %}
+    {% set taglist = collections[ tag ] %}
+    <ul class="flex flex-wrap">
+      {% for item in taglist | reverse %}
+      <li class="md:w-1/2 md:p-2 h-full relative">
+        {% include "recipeList.njk" %}
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
