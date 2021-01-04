@@ -17,9 +17,6 @@ ingredients:
 - 1 1/2 Cups unsweetened Soy Milk
 
 ---
+**Prepare the Base:** Heat 1 Tbsp of butter in a large skillet. Crumble in the vegan sausage, and brown over medium-high heat for five minutes. Add diced onion, sage, black pepper, and cayenne pepper. Cook until the onions are translucent, four to five minutes.
 
-1. Heat 1 Tbsp of butter in a large skillet. Crumble in the vegan sausage, and brown over medium-high heat for five minutes.
-2. Add diced onion, sage, black pepper, and cayenne pepper. Cook until the onions are translucent, four to five minutes.
-3. Lower the heat to medium, add the remaining butter, stir until melted, then mix in the flour and cook for one to two minutes.
-4. Slowly begin to stream in the soy milk, whisking steadily to incorporate into the butter and flour mixture.
-5. Bring to a simmer, stirring regularly to prevent burning. Simmer until thickened then taste for seasoning, adding plenty more salt and black pepper if desired.
+**Build the Gravy:** Lower the heat to medium, add the remaining butter, stir until melted, then mix in the flour and cook for one to two minutes. Slowly begin to stream in the soy milk, whisking steadily to incorporate into the butter and flour mixture. Bring to a simmer, stirring regularly to prevent burning. Simmer until thickened then taste for seasoning, adding plenty more salt and black pepper if desired.
