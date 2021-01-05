@@ -3,6 +3,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setTemplateFormats(["njk", "md", "jpg", "svg", "png"]);
 
+  eleventyConfig.addPassthroughCopy({ "static/*": "/" });
+
   eleventyConfig.addPassthroughCopy("css/styles.css");
 
   eleventyConfig.addCollection("tagList", (collection) => {
