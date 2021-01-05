@@ -35,16 +35,14 @@ layout: "baseof.njk"
   </header>
   <section class="top-container">
     <div class="flex flex-row flex-wrap items-start justify-center w-full">
-      <div class="bg-gray-100 p-4 rounded-xl md:w-1/3 flex-grow">
-        <ul class="w-full list-none">
-          {% for item in ingredients %}
-          <li class="mb-2">
-            {{ item }}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="md:w-2/3 p-4 md:px-8 markdown">
+      <ul class="list-none bg-gray-100 p-4 rounded-xl md:w-1/3 flex-grow">
+        {% for item in ingredients %}
+        <li class="mb-2">
+          {{ item }}
+        </li>
+        {% endfor %}
+      </ul>
+      <section class="md:w-2/3 p-4 md:px-16 markdown">
         {{ content | safe }}
         {% if featureImg %}
         <img
@@ -52,7 +50,7 @@ layout: "baseof.njk"
           class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
         />
         {% endif %}
-      </div>
+      </section>
     </div>
   </section>
 </article>
