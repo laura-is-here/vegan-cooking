@@ -606,6 +606,7 @@ video {
 }
 
 .markdown p {
+  line-height: 1.625;
   margin-bottom: 1rem;
 }
 
@@ -614,6 +615,7 @@ video {
 }
 
 .markdown ul {
+  line-height: 1.625;
   list-style-position: inside;
   list-style-type: disc;
   margin-bottom: 1rem;
@@ -624,6 +626,10 @@ video {
   list-style-type: decimal;
   margin-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.markdown ol li {
+  margin-bottom: 0.5rem;
 }
 
 .markdown h3 {

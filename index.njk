@@ -4,8 +4,8 @@ title: "Tiff & Laura's Favorite Recipes"
 ---
 
 <div class="top-container">
-  <div class="md:w-2/3 md:px-4">
-    <h2 class="top-header">A Few of Our Favorites</h2>
+  <div class="md:w-2/3 p-4 bg-gray-50 shadow">
+    <h2 class="top-header text-center">A Few of Our Favorites</h2>
     <ul class="flex flex-wrap">
       {% for item in collections.recipe %}
       <li class="md:w-1/2 md:p-2 h-full relative">
@@ -19,11 +19,11 @@ title: "Tiff & Laura's Favorite Recipes"
     <ul class="flex flex-wrap justify-center px-4 text-center text-sm">
       {% for tag in collections.tagList %}
       <li
-        class="bg-gray-800 text-gray-200 hover:bg-blue-300 hover:text-gray-900 transition-colors duration-500 rounded-3xl m-1"
+        class="border-2 border-gray-800 hover:bg-gray-800 hover:text-gray-200 m-1"
       >
-        <h3 class="py-2 px-4 font-bold">
-          <a href="/tags/{{ tag }}">{{ tag }}</a>
-        </h3>
+        <a href="/tags/{{ tag }}" class="block py-2 px-4 font-bold">{{
+          tag
+        }}</a>
       </li>
       {% endfor %}
     </ul>
