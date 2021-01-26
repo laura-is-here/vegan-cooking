@@ -20,16 +20,13 @@
 	}
 	
 	.markdown ul {
-		@apply pl-4 list-disc list-inside mb-4 ;
+		@apply pl-4 list-disc mb-2 ;
 	}
 
 	.markdown ol {
-		@apply pl-4 list-decimal mb-4;
+		@apply pl-4 list-decimal mb-2;
 	}
 
-	.markdown ol li {
-		@apply mb-2;
-	}
 
 	.markdown h3 {
 		@apply font-bold mb-4 text-2xl;
