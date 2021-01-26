@@ -27,6 +27,10 @@
 		@apply pl-4 list-decimal mb-2;
 	}
 
+	.markdown li {
+		@apply mb-2;
+	}
+
 
 	.markdown h3 {
 		@apply font-bold mb-4 text-2xl;
