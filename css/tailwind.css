@@ -4,7 +4,7 @@
 
 @layer components {
 	.top-container {
-		@apply max-w-screen-xl p-4 md:px-8 flex flex-row flex-wrap items-start mx-auto;
+		@apply max-w-screen-lg p-4 md:px-8 flex flex-row flex-wrap items-start mx-auto;
 	}
 
 	.top-header {

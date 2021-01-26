@@ -1,16 +1,16 @@
 ---
 layout: "baseof.njk"
-title: "Post in {{ tag }} | Tiff & Laura's Favorite Recipes"
 pagination:
   data: collections
   size: 1
   alias: tag
 permalink: /tags/{{ tag }}/
+title: "Post in {{ tag }} | Tiff & Laura's Favorite Recipes"
 ---
 
 <div class="top-container">
-  <div>
-    <h1 class="top-header">Tagged “{{ tag }}”</h1>
+  <div class="bg-red-50 shadow p-4 mb-8">
+    <h1 class="top-header text-center">Tagged “{{ tag }}”</h1>
 
     {% set taglist = collections[ tag ] %}
     <ul class="flex flex-wrap">
