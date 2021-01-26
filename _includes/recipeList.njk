@@ -1,16 +1,16 @@
 <article class="mb-6 group md:w-3/4">
   <header class="px-4 py-2 relative z-10">
-    <h3 class="text-xl font-serif leading-none">
+    <h3 class="text-2xl font-serif leading-none">
       <a href="{{ item.url }}">{{ item.data.title }}</a>
     </h3>
   </header>
-  <section class="px-4 py-2 text-base relative z-10">
+  <section class="px-4 py-2 text-xl relative z-10">
     <p class="">{{ item.data.summary }}</p>
   </section>
-  <footer class="w-full py-2 px-4 self-end text-xs relative z-10">
+  <footer class="w-full py-2 px-4 self-end text-base relative z-10">
     <ul class="flex flex-row flex-wrap">
       {% for tag in item.data.tags %} {% if tag != "recipe" %}
-      <li class="pr-2 py-1 text-sm italic">
+      <li class="pr-2 py-1 italic">
         <a href="/tags/{{ tag }}/">{{ tag }}</a>
       </li>
       {% endif %} {% endfor %}
