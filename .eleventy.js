@@ -18,6 +18,14 @@ module.exports = function (eleventyConfig) {
     return Array.from(tagsSet).sort();
   });
 
+  eleventyConfig.addCollection("recipesAlpha", (collection) =>
+    collection.getFilteredByGlob("recipes/*.md").sort((a, b) => {
+      if (a.data.title > b.data.title) return -1;
+      else if (a.data.title < b.data.title) return 1;
+      else return 0;
+    })
+  );
+
   return {
     markdownTemplateEngine: "njk",
   };
