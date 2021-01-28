@@ -9,14 +9,16 @@ title: "Post in {{ tag }} | Tiff & Laura's Favorite Recipes"
 ---
 
 <div class="top-container">
-  <div class="bg-red-50 shadow p-4 mb-8">
+  <div class="bg-gray-50 shadow p-4 md:p-8 mb-8 markdown">
     <h1 class="top-header text-center">Tagged “{{ tag }}”</h1>
 
     {% set taglist = collections[ tag ] %}
-    <ul class="flex flex-wrap">
+    <ul class="">
       {% for item in taglist | reverse %}
-      <li class="md:w-1/2 md:p-2 h-full relative">
-        {% include "recipeList.njk" %}
+      <li class="">
+        <a href="{{ item.url }}">
+          {{ item.data.title }}
+        </a>
       </li>
       {% endfor %}
     </ul>

@@ -4,11 +4,11 @@ title: "Vegan Homecooking by Tiff & Laura"
 ---
 
 <div class="top-container">
-  <div class="max-w-screen-md mb-12 mx-auto bg-gray-50 shadow p-8">
+  <div class="max-w-screen-md mb-12 mx-auto bg-gray-50 shadow p-4 md:p-8">
     <h1 class="top-header">
       {{ title }}
     </h1>
-    <p>
+    <p class="mb-4">
       A pretty website free of ads, long SEO preludes, or weird design choices
       to chronicle some of our favorite original and adapted recipes.
     </p>
@@ -28,7 +28,7 @@ title: "Vegan Homecooking by Tiff & Laura"
   <div class="md:w-1/3 md:p-4">
     <div class="bg-gray-50 shadow p-4">
       <h2 class="top-header text-center">All Categories</h2>
-      <ul class="flex flex-wrap justify-center px-4 text-center text-base">
+      <ul class="flex flex-wrap justify-center text-center text-base">
         {% for tag in collections.tagList %}
         <li
           class="border-2 border-gray-800 hover:bg-gray-800 hover:text-gray-200 m-1"
@@ -36,26 +36,6 @@ title: "Vegan Homecooking by Tiff & Laura"
           <a href="/tags/{{ tag }}" class="block py-2 px-4">{{ tag }}</a>
         </li>
         {% endfor %}
-      </ul>
-    </div>
-  </div>
-  <div>
-    <h2 class="top-header">Notes</h2>
-    <div class="markdown">
-      <ul>
-        <li>Biscuits and Gravy</li>
-        <li>Chili</li>
-        <li>Enchiladas</li>
-        <li>Tacos</li>
-        <li>Spicy Potatoes</li>
-        <li>Noodles</li>
-        <li>Cheesecake</li>
-        <li>Chocolate chip cookies</li>
-        <li>Marys Tofu chik'n</li>
-        <li>Loaded sweet potatoes</li>
-        <li>Loaded baked potatoes</li>
-        <li>Tempeh bacon</li>
-        <li>seitan</li>
       </ul>
     </div>
   </div>

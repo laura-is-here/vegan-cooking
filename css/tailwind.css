@@ -9,7 +9,7 @@
 		background-attachment: fixed;
 	}
 	.top-container {
-		@apply max-w-screen-xl p-4 md:px-8 flex flex-row flex-wrap items-start justify-around mx-auto;
+		@apply max-w-screen-xl flex flex-row flex-wrap items-start mx-auto;
 	}
 
 	.top-header {
