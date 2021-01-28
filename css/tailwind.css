@@ -29,7 +29,7 @@
 	}
 
 	.markdown ol {
-		@apply pl-4 list-decimal mb-2;
+		@apply pl-4 list-decimal list-inside mb-2;
 	}
 
 	.markdown li {
