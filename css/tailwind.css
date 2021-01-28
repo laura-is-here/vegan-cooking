@@ -25,7 +25,7 @@
 	}
 	
 	.markdown ul {
-		@apply pl-4 list-disc mb-2 ;
+		@apply pl-4 list-disc list-inside mb-2 ;
 	}
 
 	.markdown ol {
