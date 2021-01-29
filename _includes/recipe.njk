@@ -4,7 +4,7 @@ layout: "baseof.njk"
 
 <article>
   <header
-    class="p-8 flex flex-row flex-wrap center items-center mb-6 bg-gray-800 text-gray-100 shadow"
+    class="p-4 flex flex-row flex-wrap center items-center mb-6 bg-gray-800 text-gray-100 shadow"
   >
     <div class="md:w-1/2 p-4">
       <h1 class="top-header">
@@ -22,7 +22,7 @@ layout: "baseof.njk"
       {% endif %}
     </div>
     {% if youtubeId %}
-    <div class="md:w-1/2 p-4 mx-auto">
+    <div class="md:w-1/2 mx-auto">
       <iframe
         class="w-3/4 mx-auto h-48"
         src="https://www.youtube.com/embed/{{ youtubeId }}"
