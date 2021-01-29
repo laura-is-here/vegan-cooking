@@ -4,10 +4,10 @@ title: "All Recipes | Tiff & Laura's Favorite Recipes"
 ---
 
 <div class="top-container">
-  <div class="bg-gray-50 shadow p-4 md:p-8 mb-8 markdown">
+  <div class="bg-gray-800 shadow p-4 md:p-8 mb-8 markdown rounded-lg">
     <h1 class="top-header">All Recipes</h1>
     <ul class="">
-      {% for item in collections.recipesAlpha %}
+      {% for item in collections.recipesAlpha | reverse %}
       <li class=" ">
         <a href="{{ item.url }}">
           {{ item.data.title }}
