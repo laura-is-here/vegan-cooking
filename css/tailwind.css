@@ -27,15 +27,11 @@
 	}
 	
 	.markdown ul {
-		@apply pl-4 list-disc list-inside mb-2 ;
+		@apply pl-4 list-none mb-2 ;
 	}
 
 	.markdown ol {
 		@apply pl-4 list-decimal list-inside mb-2;
-	}
-
-	.markdown li {
-		@apply mb-4 pl-0 ml-0;
 	}
 
 

@@ -612,8 +612,7 @@ video {
 }
 
 .markdown ul {
-  list-style-position: inside;
-  list-style-type: disc;
+  list-style-type: none;
   margin-bottom: 0.5rem;
   padding-left: 1rem;
 }
@@ -623,12 +622,6 @@ video {
   list-style-type: decimal;
   margin-bottom: 0.5rem;
   padding-left: 1rem;
-}
-
-.markdown li {
-  margin-left: 0px;
-  margin-bottom: 1rem;
-  padding-left: 0px;
 }
 
 .markdown h3 {
