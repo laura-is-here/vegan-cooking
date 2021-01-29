@@ -1,5 +1,5 @@
 ---
-title: "Queso-loaded Sweet Potatoes"
+title: "Nacho-Style Sweet Potatoes"
 tags: ["cheese", "queso", "main entree"]
 summary: "Sweet potatoes baked until tender and loaded with all the toppings that make a plate of nachos great. Laura & Tiff's original recipe."
 ingredients:
