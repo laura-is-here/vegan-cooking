@@ -39,14 +39,14 @@
 	}
 
 	.markdown h2 {
-		@apply mb-4 text-4xl;
+		@apply mb-4 text-4xl text-center;
 	}
 
 	.markdown h3 {
-		@apply mb-4 text-2xl;
+		@apply mb-4 text-2x text-center;
 	}
 
 	.markdown h4 {
-		@apply mb-4 text-xl;
+		@apply mb-4 text-xl text-center;
 	}
 }
