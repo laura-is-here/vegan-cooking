@@ -18,6 +18,10 @@
 		@apply font-serif text-4xl mb-6;
 	}
 
+	[aria-expanded="true"] .vert {
+  		@apply hidden;
+	}
+
 	.markdown p {
 		@apply mb-4 ;
 	}

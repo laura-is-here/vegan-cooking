@@ -25,7 +25,7 @@ ingredients:
   - Slurry of 1 Tbsp cornstarch mixed with ~1-2 Tbsp water, as needed
 ---
 
-#### Prep
+## Prep
 
 1. Slice the tofu into one inch cubes. Slice your tofu in half horizontally. Then, slice down to get one inch strips, and finally cut in the other direction to get one inch cubes.
 2. Get a small pot of water up to a boil, and add in ½ tsp of salt. Add enough water so that it’d be able to submerge the tofu. \~3 inches, but it depends on the size of your pot.
@@ -34,7 +34,7 @@ ingredients:
 4. Toast and grind the Sichuan peppercorns. Add your Sichuan peppercorns to a wok and toast for \~1-2 minutes over a medium low flame. You’ll know you’re done once you can see little oil splotches on the side of your wok.
 5. Slice the green garlic, mince the garlic, mince the ginger, roughly chop the douchi fermented beans, mince the chili bean paste.
 
-#### Cook
+## Cook
 
 1.  Make the Mapo Tofu: Begin by stir-frying. As always, first longyau: get your wok piping hot, shut off the heat, add in the oil, and give it a swirl to get a nice non-stick surface.
 2.  Heat on medium high now, heat the oil up until bubbles start to form around a pair of chopsticks (\~170C), then:

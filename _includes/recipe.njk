@@ -4,7 +4,7 @@ layout: "baseof.njk"
 
 <article>
   <header
-    class="p-4 mx-auto max-w-screen-lg flex flex-row flex-wrap justify-center items-center mb-12 bg-gray-800 text-gray-100 shadow border-l-4 border-green-200"
+    class="p-4 mx-auto max-w-screen-lg flex flex-row flex-wrap justify-center items-center mb-12 bg-green-50 shadow"
   >
     <div class="md:w-1/2 p-4">
       <h1 class="top-header">
@@ -35,15 +35,32 @@ layout: "baseof.njk"
   </header>
   <section class="top-container mb-8">
     <div class="flex flex-row flex-wrap items-start justify-around w-full">
-      <ul
-        class="p-8 md:p-16 md:w-1/3 bg-gray-800 shadow rounded-lg border-t-4 border-green-200"
-      >
-        {% for item in ingredients %}
-        <li class="mb-4">
-          {{ item }}
-        </li>
-        {% endfor %}
-      </ul>
+      <div class="w-full md:w-1/3 bg-gray-50 shadow">
+        <h2 class="collapse text-2xl py-2 px-4 mb-2">
+          <button
+            class="flex flex-row justify-between items-center w-full"
+            aria-expanded="true"
+          >
+            Ingredients
+            <svg
+              viewBox="0 0 10 10"
+              aria-hidden="true"
+              focusable="false"
+              class="h-4 fill-current focus:outline-white"
+            >
+              <rect class="vert" height="8" width="2" y="1" x="4" />
+              <rect height="2" width="8" y="4" x="1" />
+            </svg>
+          </button>
+        </h2>
+        <ul class="divide-y divide-gray-200">
+          {% for item in ingredients %}
+          <li class="py-2 px-4">
+            {{ item }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
       <section class="md:w-2/3 p-4 md:p-16 max-w-screen-md markdown">
         {{ content | safe }}
         {% if featureImg %}
