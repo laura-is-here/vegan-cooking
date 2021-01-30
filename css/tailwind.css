@@ -31,11 +31,11 @@
 	}
 	
 	.markdown ul {
-		@apply pl-4 list-none mb-2 ;
+		@apply list-none mb-2 ;
 	}
 
 	.markdown ol {
-		@apply pl-4 list-decimal list-inside mb-2;
+		@apply list-decimal list-inside mb-2;
 	}
 
 	.markdown li {
