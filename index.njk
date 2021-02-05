@@ -4,7 +4,7 @@ title: "Vegan Homecooking by Tiff & Laura"
 ---
 
 <div class="top-container">
-  <div class="max-w-screen-sm mb-12 mx-auto p-4">
+  <div class="max-w-screen-sm mb-12 mx-auto p-4 md:p-8 bg-yellow-50">
     <h1 class="top-header">
       {{ title }}
     </h1>
@@ -13,7 +13,7 @@ title: "Vegan Homecooking by Tiff & Laura"
       to chronicle some of our favorite original and adapted recipes.
     </p>
   </div>
-  <div class="md:w-2/3 md:p-4 mb-8">
+  <div class="md:w-2/3 md:p-4 mb-8 bg-yellow-50">
     <div class="p-4">
       <h2 class="top-header text-center">A Few of Our Favorites</h2>
       <ul class="flex flex-wrap">
@@ -30,7 +30,7 @@ title: "Vegan Homecooking by Tiff & Laura"
       <h2 class="top-header text-center">All Categories</h2>
       <ul class="flex flex-wrap justify-center items-center text-center">
         {% for tag in collections.tagList %}
-        <li class="m-1">
+        <li class="m-1 bg-green-200">
           <a href="/tags/{{ tag }}" class="block py-2 px-4">{{ tag }}</a>
         </li>
         {% endfor %}
