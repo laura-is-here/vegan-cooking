@@ -4,7 +4,7 @@ layout: "baseof.njk"
 
 <article>
   <header
-    class="p-4 mx-auto max-w-screen-lg flex flex-row flex-wrap justify-center items-center mb-12 bg-yellow-50"
+    class="p-4 md:p-8 mx-auto max-w-screen-lg flex flex-row flex-wrap justify-center items-center mb-12 bg-yellow-50"
   >
     <div class="md:w-1/2">
       <h1 class="top-header">
@@ -53,7 +53,7 @@ layout: "baseof.njk"
             </svg>
           </button>
         </h2>
-        <ul class="divide-y divide-gray-200">
+        <ul class="divide-y divide-green-500">
           {% for item in ingredients %}
           <li class="py-2 px-4">
             {{ item }}
@@ -70,6 +70,14 @@ layout: "baseof.njk"
           src="{{ featureImg }}"
           class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
         />
+        {% endif %} {% if item.data.featureImgAttr %}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          class="italic border-b-2 border-green-500 inline-block mr-2"
+          href="{{ item.data.featureImgAttr }}"
+          >Image Credit</a
+        >
         {% endif %}
       </section>
     </div>
