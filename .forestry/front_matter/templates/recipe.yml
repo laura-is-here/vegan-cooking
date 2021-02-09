@@ -34,3 +34,5 @@ fields:
     required: false
   label: Image Credit
   description: The URL of the site to credit for featured image.
+pages:
+- recipes/pie-dough.md
