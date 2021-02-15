@@ -35,5 +35,6 @@ fields:
   label: Image Credit
   description: The URL of the site to credit for featured image.
 pages:
+- recipes/lettuce-wraps.md
 - recipes/pie-dough.md
 - recipes/pizza-dough-neapolitan-style.md
