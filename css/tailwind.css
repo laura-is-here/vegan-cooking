@@ -26,31 +26,39 @@
 		@apply mb-4 ;
 	}
 
+	.markdown p:last-of-type {
+		@apply mb-12;
+	}
+
 	.markdown a {
 		@apply border-b-2;
 	}
 	
 	.markdown ul {
-		@apply list-none mb-2 ;
+		@apply list-disc list-inside mb-6 ;
 	}
 
 	.markdown ol {
-		@apply list-decimal list-inside mb-2;
+		@apply list-decimal list-inside mb-6;
 	}
 
-	.markdown li {
+	.markdown ul li {
+		@apply mb-2;
+	}
+
+	.markdown ol li {
 		@apply mb-4;
 	}
 
 	.markdown h2 {
-		@apply mb-4 text-4xl text-center;
+		@apply mb-4 text-4xl ;
 	}
 
 	.markdown h3 {
-		@apply mb-4 text-2xl text-center;
+		@apply mb-4 text-2xl italic;
 	}
 
 	.markdown h4 {
-		@apply mb-4 text-xl text-center;
+		@apply mb-4 text-xl italic;
 	}
 }

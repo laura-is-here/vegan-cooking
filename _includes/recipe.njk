@@ -2,11 +2,9 @@
 layout: "baseof.njk"
 ---
 
-<article>
-  <header
-    class="p-4 md:p-8 mx-auto max-w-screen-lg flex flex-row flex-wrap justify-center items-center mb-12 bg-gray-50"
-  >
-    <div class="md:w-1/2">
+<article class="bg-gray-50 max-w-screen-md top-container p-4 md:p-12">
+  <header class="">
+    <div class="">
       <h1 class="top-header">
         {{ title }}
       </h1>
@@ -22,7 +20,7 @@ layout: "baseof.njk"
       {% endif %}
     </div>
     {% if youtubeId %}
-    <div class="md:w-1/2 mx-auto">
+    <div class="">
       <iframe
         class="mx-auto h-56"
         src="https://www.youtube.com/embed/{{ youtubeId }}"
@@ -33,9 +31,7 @@ layout: "baseof.njk"
     </div>
     {% endif %}
   </header>
-  <section class="top-container mb-8">
-    <div class="flex flex-row flex-wrap items-start justify-around w-full ">
-      <div class="w-full md:w-1/3 mb-8 bg-gray-50 md:p-4">
+  <!--<div class="w-full md:w-1/3 mb-8 bg-gray-50 md:p-4">
         <h2 class="collapse text-2xl py-2 px-4 mb-2">
           <button
             class="flex flex-row justify-between items-center w-full"
@@ -52,7 +48,7 @@ layout: "baseof.njk"
               <rect height="2" width="8" y="4" x="1" />
             </svg>
           </button>
-        </h2>
+        </h2> 
         <ul class="">
           {% for item in ingredients %}
           <li class="py-2 px-4">
@@ -60,24 +56,22 @@ layout: "baseof.njk"
           </li>
           {% endfor %}
         </ul>
-      </div>
-      <section class="md:w-2/3 p-4 md:p-16 max-w-screen-md markdown bg-gray-50">
-        {{ content | safe }}
-        {% if featureImg %}
-        <img
-          src="{{ featureImg }}"
-          class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
-        />
-        {% endif %} {% if item.data.featureImgAttr %}
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          class="italic border-b-2 border-gray-500 inline-block mr-2"
-          href="{{ item.data.featureImgAttr }}"
-          >Image Credit</a
-        >
-        {% endif %}
-      </section>
-    </div>
+      </div>-->
+  <section class="markdown">
+    {{ content | safe }}
+    {% if featureImg %}
+    <img
+      src="{{ featureImg }}"
+      class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
+    />
+    {% endif %} {% if item.data.featureImgAttr %}
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+      class="italic border-b-2 border-gray-500 inline-block mr-2"
+      href="{{ item.data.featureImgAttr }}"
+      >Image Credit</a
+    >
+    {% endif %}
   </section>
 </article>
