@@ -2,8 +2,8 @@
 layout: "baseof.njk"
 ---
 
-<article class="bg-gray-50 max-w-screen-md top-container ">
-  <header class="mb-4 bg-yellow-600 text-gray-50 p-8 w-full flex flex-row flex-wrap">
+<article class="bg-orange-300 max-w-screen-md top-container p-4 md:p-8">
+  <header class="mb-4 w-full flex flex-row flex-wrap">
     <div class="md:w-1/2">
       <h1 class="top-header">
         {{ title }}
@@ -20,9 +20,9 @@ layout: "baseof.njk"
       {% endif %}
     </div>
     {% if youtubeId %}
-    <div class="md:w-1/2">
+    <div class="md:w-1/2 ">
       <iframe
-        class="mx-auto h-56"
+        class="h-36"
         src="https://www.youtube.com/embed/{{ youtubeId }}"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -57,7 +57,7 @@ layout: "baseof.njk"
           {% endfor %}
         </ul>
       </div>-->
-  <section class="markdown p-8 md:p-12">
+  <section class="markdown p-4 bg-gray-50 md:p-12">
     {{ content | safe }}
     {% if featureImg %}
     <img
