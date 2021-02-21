@@ -9,21 +9,29 @@ featureImg: "/img/mapo-tofu-sm.jpg"
 youtubeId: AujuLHK3hvs
 source: https://www.reddit.com/r/Cooking/comments/bkwppx/recipe_sichuan_mapo_tofu_revisited_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/
 summary: Classic Sichuan Mapo Tofu from Chinese Cooking Demystified with vegan modifications.
-ingredients:
-  - One brick Soft or medium tofu
-  - 1/2 cup Soy curls, rehydrated, or vegan beef crumbles
-  - 5 Tbsp Canola oil
-  - 1 Tbsp Sichuan peppercorns, toasted and ground
-  - 3 Tbsp Sichuan Chili Bean Paste, i.e. Pixian Doubanjiang, roughly chopped
-  - 2 Tbsp Chili flakes
-  - 1 Tbsp Douchi, black fermented beans, roughly chopped
-  - Aromatics - 4 cloves garlic, minced - 2 inches ginger, minced.
-  - 1 Cup Stock
-  - 1-2 stalks Green garlic or scallions, chopped into 1 inch sections.
-  - Seasoning - 1 Tbsp light soy sauce - 1 Tbsp liaojiu a.k.a. Shaoxing wine - ½ Tbsp
-    toasted sesame oil - ¼ tsp MSG - ¼ tsp white pepper powder
-  - Slurry of 1 Tbsp cornstarch mixed with ~1-2 Tbsp water, as needed
 ---
+
+## Ingredients
+
+- One brick Soft or medium tofu
+- 1/2 cup Soy curls, rehydrated, or vegan beef crumbles
+- 5 Tbsp Canola oil
+- 1 Tbsp Sichuan peppercorns, toasted and ground
+- 3 Tbsp Sichuan Chili Bean Paste, i.e. Pixian Doubanjiang, roughly chopped
+- 2 Tbsp Chili flakes
+- 1 Tbsp Douchi, black fermented beans, roughly chopped
+- Aromatics 
+	- 4 cloves garlic, minced 
+	- 2 inches ginger, minced.
+- 1 Cup Stock
+- 1-2 stalks Green garlic or scallions, chopped into 1 inch sections.
+- Seasoning 
+	- 1 Tbsp light soy sauce 
+	- 1 Tbsp liaojiu a.k.a. Shaoxing wine 
+	- ½ Tbsp toasted sesame oil 
+	- ¼ tsp MSG 
+	- ¼ tsp white pepper powder
+- Slurry of 1 Tbsp cornstarch mixed with ~1-2 Tbsp water, as needed
 
 ## Prep
 
