@@ -8,7 +8,12 @@ featureImg: ''
 youtubeId: oHRxxef4_kI
 source: https://www.reddit.com/r/Cooking/comments/ag800q/recipe_sichuan_mala_noodles_%E9%87%8D%E5%BA%86%E9%BA%BB%E8%BE%A3%E5%B0%8F%E9%9D%A2/
 summary: Spicy noodles with lots of toppings. From Chinese Cooking Demystified.
-ingredients:
+featureImgAttr: ''
+
+---
+
+## Ingredients
+
 - 200g fresh alkaline noodles
 - 20g light soy sauce
 - 100g stock
@@ -27,9 +32,9 @@ ingredients:
 - 10g peanuts, toasted and crushed
 - 10g scallion, sliced
 - 2 cloves garlic, smashed
-featureImgAttr: ''
 
----
+## Process
+
  1. _Toast the peanuts (\~3 min, med heat), the Sichuan peppercorns (\~90 seconds, med-low to low heat), and the yacai (\~1 min, residual heat)._ Toast the peanuts for about three minutes over medium heat until they’re just beginning to blacken and set them aside. Then toast the Sichuan peppercorns over medium low heat until they begin to blister and leave tiny little oil specks on your pan, and set them aside. With the residual heat, toast the yacai for about a minute until fragrant – a little’ll stick to the pan, that’s normal.
  2. _Slice the scallions, smash the garlic._ Random aside – the other day I saw a thread here extolling the benefits of pre-minced garlic because people don’t want the hassle of peeling the garlic. I certainly don’t look down on laziness, but if you’re looking to be lazy just smash your garlic. _Whack!_ Job’s done.
  3. _In a mortar: grind the Sichuan peppercorns to a powder, pound the garlic to a paste, smash the peanuts then peel._ All separate, of course. After smashing the peanuts, you can toss them in a little bowl and slightly blow on it to remove the peels.
