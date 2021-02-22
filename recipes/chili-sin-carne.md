@@ -1,10 +1,13 @@
 ---
 title: Chili sin carne
 tags:
-- comfort
-- spicy
+  - comfort
+  - spicy
 summary: Quick, spicy, vegan chili that packs a ton of flavor. Laura's original recipe.
-ingredients:
+---
+
+## Ingredients
+
 - 4-5 dried arbol chiles
 - 4-5 dried guajillo chiles
 - 3 dried ancho chiles
@@ -29,15 +32,28 @@ ingredients:
 - Avocado
 - Cilantro
 
----
-**Prepare the Dried Chiles:** Remove the stems and seeds from all dried chiles. Place in a large bowl or pot and cover with boiling water. Set aside and let soak for 30 minutes.
+## Process
 
-**Cook the Meat and Veggies:** Add vegetable oil to a large, heavy-bottomed pot over medium-high heat. Cook vegan beef crumbles of your choice until well browned, about 7 minutes. If your crumbles stick, add a splash of water to scrape up some of what is stuck to the bottom of the pan periodically to prevent burning. Add diced onion and cook until translucent, about 5 minutes. Add minced garlic and a pinch of salt, letting cook for about 1 minute.
+### Prepare the Dried Chiles
 
-**Prepare the Sauce:** While your meat and veggies are cooking, prepare the sauce. In a high-speed blender, combine spices, diced tomatoes, and coffee. Strain the soaked dried chiles, and add the chiles to the blender. Blend the mixture until smooth.
+Remove the stems and seeds from all dried chiles. Place in a large bowl or pot and cover with boiling water. Set aside and let soak for 30 minutes.
 
-**Start the Simmer:** Add the blended sauce to your meat and veggies, scraping the bottom of the pan one final time. Add stock and cocoa powder and turn heat to high to bring to a boil. Once boiling, reduce heat to low and let simmer, partially covered, for at least an hour and half, stirring occasionally.
+### Cook the Meat and Veggies
 
-**Finishing:** Add about a 1/2 cup of water to thin out the chili slightly at this point. Taste for seasoning, making sure to add more salt or other spices if necessary at this point before adding the beans. Once seasoned as desired, add the drained pinto and black beans and simmer until heated through, 10 - 15 minutes. Serve topped with a squeeze of fresh lime, sliced avocado, diced white onion, cilantro, and cashew sour cream if you like.
+Add vegetable oil to a large, heavy-bottomed pot over medium-high heat. Cook vegan beef crumbles of your choice until well browned, about 7 minutes. If your crumbles stick, add a splash of water to scrape up some of what is stuck to the bottom of the pan periodically to prevent burning. Add diced onion and cook until translucent, about 5 minutes. Add minced garlic and a pinch of salt, letting cook for about 1 minute.
 
-**_Note for Chili Mac:_** _To use for chili mac, spoon over a bowl of pasta and season generously with nutritional yeast._
+### Prepare the Sauce
+
+While your meat and veggies are cooking, prepare the sauce. In a high-speed blender, combine spices, diced tomatoes, and coffee. Strain the soaked dried chiles, and add the chiles to the blender. Blend the mixture until smooth.
+
+### Start the Simmer
+
+Add the blended sauce to your meat and veggies, scraping the bottom of the pan one final time. Add stock and cocoa powder and turn heat to high to bring to a boil. Once boiling, reduce heat to low and let simmer, partially covered, for at least an hour and half, stirring occasionally.
+
+### Finishing
+
+Add about a 1/2 cup of water to thin out the chili slightly at this point. Taste for seasoning, making sure to add more salt or other spices if necessary at this point before adding the beans. Once seasoned as desired, add the drained pinto and black beans and simmer until heated through, 10 - 15 minutes. Serve topped with a squeeze of fresh lime, sliced avocado, diced white onion, cilantro, and cashew sour cream if you like.
+
+### Note for Chili Mac:
+
+_To use for chili mac, spoon over a bowl of pasta and season generously with nutritional yeast._
