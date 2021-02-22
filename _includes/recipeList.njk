@@ -1,11 +1,11 @@
 <article class="mb-6 group md:w-3/4">
-  <h3 class="text-2xl italic font-serif leading-none mb-2 py-1 border-b-2 border-purple-800">
+  <h3 class="text-2xl italic font-serif leading-none mb-2 py-1 bg-yellow-50">
     <a href="{{ item.url }}">{{ item.data.title }}</a>
   </h3>
-  <p class="text-xl">{{ item.data.summary }}</p>
-  <ul class="flex flex-row flex-wrap">
+  <p class="text-xl mb-2">{{ item.data.summary }}</p>
+  <ul class="flex flex-row flex-wrap text-xl">
     {% for tag in item.data.tags %} {% if tag != "recipe" %}
-    <li class="pr-2 py-1 italic">
+    <li class="pr-2 py-1 italic bg-yellow-50">
       <a href="/tags/{{ tag }}/">{{ tag }}</a>
     </li>
     {% endif %} {% endfor %}
