@@ -2,7 +2,7 @@
 layout: "baseof.njk"
 ---
 
-<article class="bg-gray-50 max-w-screen-md top-container p-8 md:p-12 m-2">
+<article class="bg-orange-100 max-w-screen-md top-container p-8 md:p-12 m-2 md:mx-auto">
   <header class="mb-4 w-full flex flex-row flex-wrap">
     <div class="md:w-1/2 ">
       <h1 class="top-header">
@@ -57,7 +57,7 @@ layout: "baseof.njk"
           {% endfor %}
         </ul>
       </div>-->
-  <section class="markdown md:pr-8 bg-gray-50 ">
+  <section class="markdown md:pr-8 ">
     {{ content | safe }}
     {% if featureImg %}
     <img
@@ -68,7 +68,7 @@ layout: "baseof.njk"
     <a
       rel="noopener noreferrer"
       target="_blank"
-      class="italic border-b-2 border-gray-500 inline-block mr-2"
+      class="italic inline-block mr-2"
       href="{{ item.data.featureImgAttr }}"
       >Image Credit</a
     >

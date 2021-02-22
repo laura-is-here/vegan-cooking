@@ -4,7 +4,7 @@ title: "Vegan Homecooking by Tiff & Laura"
 ---
 
 <div class="top-container m-2">
-  <div class="max-w-screen-md mb-12 mx-auto p-8 md:p-12 bg-gray-50">
+  <div class="max-w-screen-md mb-12 mx-auto p-8 md:p-12 bg-orange-100">
     <h1 class="top-header">
       {{ title }}
     </h1>
@@ -26,7 +26,7 @@ title: "Vegan Homecooking by Tiff & Laura"
       <h2 class="top-header text-center">All Categories</h2>
       <ul class="flex flex-wrap justify-center items-center text-center">
         {% for tag in collections.tagList %}
-        <li class="m-2 bg-gray-50 px-2 py-1">
+        <li class="m-2 bg-orange-100 px-2 py-1">
           <a href="/tags/{{ tag }}" class="block py-1">{{ tag }}</a>
         </li>
         {% endfor %}
