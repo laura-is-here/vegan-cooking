@@ -2,27 +2,32 @@
 layout: "baseof.njk"
 ---
 
-<article class="bg-yellow-50 max-w-screen-md top-container p-8 md:p-12 m-4 md:mx-auto">
-  <header class="mb-4 w-full flex flex-row flex-wrap">
-    <div class="md:w-1/2 ">
-      <h1 class="top-header">
+<article
+  class="bg-green-50 rounded-t-lg max-w-screen-md top-container px-4 py-2 m-1 md:mx-auto"
+>
+  <header class="mb-4 w-full flex flex-row flex-wrap text-center">
+    <div class="md:w-1/2">
+      <h1 class="font-bold text-red-700 ">
         {{ title }}
       </h1>
-      <p class="mb-2 text-xl">{{ summary }}</p>
-      {% if source %}
-      <a
-        href="{{ source }}"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="italic text-lg inline-block mb-4"
-        >Original Recipe</a
-      >
-      {% endif %}
+      <div class="p-2">
+		<hr class="border-green-200 my-2"/>
+        <p class="mb-2 text-lg">{{ summary }}</p>
+        {% if source %}
+        <a
+          href="{{ source }}"
+          rel="noopener noreferrer"
+          target="_blank"
+          class="italic text-lg inline-block mb-4"
+          >Original Recipe</a
+        >
+        {% endif %}
+      </div>
     </div>
     {% if youtubeId %}
-    <div class="md:w-1/2 ">
+    <div class="md:w-1/2">
       <iframe
-        class="h-56 mx-auto"
+        class="h-56 w-full mx-auto"
         src="https://www.youtube.com/embed/{{ youtubeId }}"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
