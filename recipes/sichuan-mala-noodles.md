@@ -9,9 +9,11 @@ youtubeId: oHRxxef4_kI
 source: https://www.reddit.com/r/Cooking/comments/ag800q/recipe_sichuan_mala_noodles_%E9%87%8D%E5%BA%86%E9%BA%BB%E8%BE%A3%E5%B0%8F%E9%9D%A2/
 summary: Spicy noodles with lots of toppings. From Chinese Cooking Demystified.
 featureImgAttr: ''
+ingredients:
+- name: fresh alkaline noodles
+  amount: 200g
 
 ---
-
 ## Ingredients
 
 - 200g fresh alkaline noodles
