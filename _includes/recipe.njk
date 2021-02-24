@@ -4,64 +4,62 @@ layout: "baseof.njk"
 
 <article>
   <header
-    class="w-full text-center bg-gray-50 rounded-t py-2 sticky top-2 shadow-sm"
+    class="w-full text-center bg-gray-50 rounded-t py-1 sticky top-2 shadow-sm"
   >
-    <h1 class="font-bold text-red-700">
+    <h1 class="font-bold text-orange-700">
       {{ title }}
     </h1>
     <div class="flex flex-row justify-center items-center m-2">
       <a
         href="#ingredients"
-        class="text-red-700 bg-red-100 text-lg rounded-l py-1 px-2 border-r-2 border-red-700 w-1/2"
+        class="text-orange-700 bg-orange-100 text-base rounded-l py-1 px-2 border-r-2 border-orange-700 w-1/2"
         >Ingredients</a
       >
       <a
         href="#process"
-        class="text-red-700 bg-red-100 text-lg rounded-r py-1 px-2 border-l-2 border-red-700 w-1/2"
+        class="text-orange-700 bg-orange-100 text-base rounded-r py-1 px-2 border-l-2 border-orange-700 w-1/2"
         >Process</a
       >
     </div>
   </header>
-  <div class="bg-red-100 text-gray-700">
-    <div class="p-4 text-center bg-gray-50">
-      <p class="mb-2 text-lg">{{ summary }}</p>
-      {% if source %}
-      <a
-        href="{{ source }}"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="italic text-lg inline-block mb-4"
-        >Original Recipe</a
-      >
-      {% endif %}
-    </div>
-    {% if youtubeId %}
-    <div class="md:w-1/2">
-      <iframe
-        class="h-56 w-full mx-auto"
-        src="https://www.youtube.com/embed/{{ youtubeId }}"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
+  <div class="p-4 text-center bg-gray-50 text-gray-700">
+    <p class="mb-2 text-lg">{{ summary }}</p>
+    {% if source %}
+    <a
+      href="{{ source }}"
+      rel="noopener noreferrer"
+      target="_blank"
+      class="italic text-lg inline-block mb-4"
+      >Original Recipe</a
+    >
     {% endif %}
-    <section class="markdown p-8 bg-gray-50">
-      {{ content | safe }}
-      {% if featureImg %}
-      <img
-        src="{{ featureImg }}"
-        class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
-      />
-      {% endif %} {% if item.data.featureImgAttr %}
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        class="italic inline-block mr-2"
-        href="{{ item.data.featureImgAttr }}"
-        >Image Credit</a
-      >
-      {% endif %}
-    </section>
   </div>
+  {% if youtubeId %}
+  <div class="md:w-1/2">
+    <iframe
+      class="h-56 w-full mx-auto"
+      src="https://www.youtube.com/embed/{{ youtubeId }}"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+  {% endif %}
+  <section class="markdown p-8 bg-gray-50 text-gray-700">
+    {{ content | safe }}
+    {% if featureImg %}
+    <img
+      src="{{ featureImg }}"
+      class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
+    />
+    {% endif %} {% if item.data.featureImgAttr %}
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+      class="italic inline-block mr-2"
+      href="{{ item.data.featureImgAttr }}"
+      >Image Credit</a
+    >
+    {% endif %}
+  </section>
 </article>

@@ -1,4 +1,13 @@
 module.exports = function (eleventyConfig) {
+  let markdownIt = require("markdown-it");
+  let markdownAnchor = require("markdown-it-anchor");
+  let options = {
+    html: true,
+  };
+  let markdownLib = markdownIt(options).use(markdownAnchor);
+
+  eleventyConfig.setLibrary("md", markdownLib);
+
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.setTemplateFormats(["njk", "md", "jpg", "svg", "png"]);
