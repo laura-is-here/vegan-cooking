@@ -19,11 +19,6 @@ fields:
 - type: text
   name: summary
   label: Summary
-- type: list
-  name: ingredients
-  label: ingredients
-  config:
-    use_select: false
 - name: tags
   type: tag_list
   default: []
@@ -34,6 +29,24 @@ fields:
     required: false
   label: Image Credit
   description: The URL of the site to credit for featured image.
+- name: ingredients
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: amount
+    type: text
+    config:
+      required: false
+    label: Amount
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ingredients
 pages:
 - recipes/lettuce-wraps.md
 - recipes/pie-dough.md
