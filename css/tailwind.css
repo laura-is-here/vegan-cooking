@@ -51,7 +51,7 @@
 	}
 
 	.markdown h2 {
-		@apply mb-8 text-2xl font-bold text-orange-700 text-center pb-8;
+		@apply mb-8 text-2xl font-bold text-orange-700 text-center py-8;
 	}
 
 	.markdown h2 button {
