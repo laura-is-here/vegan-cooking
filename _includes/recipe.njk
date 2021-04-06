@@ -2,27 +2,13 @@
 layout: "baseof.njk"
 ---
 
-<article class="top-container max-w-screen-md">
+<article class="top-container max-w-screen-sm md:max-w-screen-md">
   <header
-    class="w-full text-center bg-gray-50 rounded-t-lg py-1 sticky top-2 shadow-sm"
+    class="w-full bg-gray-50 p-4 "
   >
-    <h1 class="font-bold text-orange-700">
+    <h1 class="font-bold mb-2">
       {{ title }}
     </h1>
-    <div class="flex flex-row justify-center items-center m-2">
-      <a
-        href="#ingredients"
-        class="text-orange-700 bg-orange-100 text-base rounded-l py-1 px-2 border-r-2 border-orange-700 w-1/2"
-        >Ingredients</a
-      >
-      <a
-        href="#process"
-        class="text-orange-700 bg-orange-100 text-base rounded-r py-1 px-2 border-l-2 border-orange-700 w-1/2"
-        >Process</a
-      >
-    </div>
-  </header>
-  <div class="p-4 text-center bg-gray-50 text-gray-700 w-full">
     <p class="mb-2">{{ summary }}</p>
     {% if source %}
     <a
@@ -33,7 +19,7 @@ layout: "baseof.njk"
       >Original Recipe</a
     >
     {% endif %}
-  </div>
+  </header>
   {% if youtubeId %}
   <div class="w-full">
     <iframe
@@ -45,7 +31,7 @@ layout: "baseof.njk"
     ></iframe>
   </div>
   {% endif %}
-  <section class="markdown p-8 bg-gray-50 text-gray-700">
+  <section class="markdown p-4 bg-gray-50 text-gray-700">
     {{ content | safe }}
     {% if featureImg %}
     <img

@@ -29,8 +29,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("recipesAlpha", (collection) =>
     collection.getFilteredByGlob("recipes/*.md").sort((a, b) => {
-      if (a.data.title > b.data.title) return -1;
-      else if (a.data.title < b.data.title) return 1;
+      let nameA = a.data.title.toUpperCase();
+      let nameB = b.data.title.toUpperCase();
+      if (nameA < nameB) return -1;
+      else if (nameA > nameB) return 1;
       else return 0;
     })
   );
