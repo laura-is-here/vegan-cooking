@@ -3,7 +3,7 @@ tags:
 - pasta
 - quick
 title: Pasta with Chickpeas
-featureImg: ''
+featureImg: img/20210414_191019_20210415114825465.jpg
 youtubeId: ''
 source: https://smittenkitchen.com/2017/10/quick-pasta-and-chickpeas-pasta-e-ceci/
 summary: Pasta and chickpeas cooked in a tomato sauce.
