@@ -49,6 +49,7 @@ fields:
   label: Ingredients
 pages:
 - recipes/lettuce-wraps.md
+- recipes/pasta-with-chickpeas.md
 - recipes/pie-dough.md
 - recipes/pizza-dough-neapolitan-style.md
 - recipes/sichuan-mala-noodles.md
