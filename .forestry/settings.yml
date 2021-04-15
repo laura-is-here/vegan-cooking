@@ -12,7 +12,7 @@ sections:
   templates:
   - recipe
 upload_dir: img
-public_path: img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
