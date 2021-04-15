@@ -3,16 +3,20 @@ layout: "baseof.njk"
 title: "Vegan Homecooking by Tiff & Laura"
 ---
 
-<div class="top-container md:mx-auto ">
-  <div class="max-w-screen-md mb-12 mx-auto md:p-12 px-8">
-    <h1 class="text-2xl mb-2 font-bold">
+<div class="top-container md:mx-auto">
+  <div
+    class="max-w-screen-md mb-12 mx-auto md:p-12 p-8 bg-orange-700 text-gray-100"
+  >
+    <h1 class="text-2xl mb-2 font-display">
       {{ title }}
     </h1>
     <p class="mb-4">
       A pretty website free of ads, long SEO preludes, or weird design choices
       to chronicle some of our favorite original and adapted recipes.
     </p>
-    <h2 id="recipes" class="text-2xl mb-2 font-bold ">Recipes</h2>
+  </div>
+  <div class="p-8">
+    <h2 id="recipes" class="text-2xl mb-2 font-display text-center">Recipes</h2>
     <ul class="flex flex-wrap">
       {% for item in collections.recipe %}
       <li class="md:w-1/2 flex-grow h-full">{% include "recipeList.njk" %}</li>

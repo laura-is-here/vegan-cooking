@@ -3,10 +3,8 @@ layout: "baseof.njk"
 ---
 
 <article class="top-container max-w-screen-sm md:max-w-screen-md">
-  <header
-    class="w-full px-8 "
-  >
-    <h1 class="font-bold mb-2">
+  <header class="w-full p-8 bg-orange-700 text-gray-100">
+    <h1 class="font-display mb-2">
       {{ title }}
     </h1>
     <p class="mb-2">{{ summary }}</p>
@@ -15,7 +13,7 @@ layout: "baseof.njk"
       href="{{ source }}"
       rel="noopener noreferrer"
       target="_blank"
-      class="italic text-lg inline-block mb-4"
+      class="italic text-lg inline-block mb-4 border-b-2 border-orange-800"
       >Original Recipe</a
     >
     {% endif %}
@@ -31,13 +29,9 @@ layout: "baseof.njk"
     ></iframe>
   </div>
   {% endif %}
-  <section class="markdown px-8 ">
-    {{ content | safe }}
+  <section class="markdown p-8">
     {% if featureImg %}
-    <img
-      src="{{ featureImg }}"
-      class="shadow rounded mb-6 h-64 w-full mx-auto object-cover"
-    />
+    <img src="{{ featureImg }}" class="mb-6 h-64 w-full mx-auto object-cover" />
     {% endif %} {% if item.data.featureImgAttr %}
     <a
       rel="noopener noreferrer"
@@ -47,5 +41,6 @@ layout: "baseof.njk"
       >Image Credit</a
     >
     {% endif %}
+    {{ content | safe }}
   </section>
 </article>

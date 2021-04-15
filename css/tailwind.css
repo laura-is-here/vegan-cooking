@@ -50,22 +50,14 @@
   }
 
   .markdown h2 {
-    @apply mb-4 text-2xl font-bold;
-  }
-
-  .markdown h2 button {
-    @apply flex flex-row items-center text-gray-700;
-  }
-
-  .markdown h2 button svg {
-    @apply h-4 px-2 fill-current;
+    @apply mb-4 text-4xl font-display;
   }
 
   .markdown h3 {
-    @apply mb-4 text-xl italic;
+    @apply mb-4 text-2xl font-display;
   }
 
   .markdown h4 {
-    @apply mb-4 text-lg italic;
+    @apply mb-4 text-xl font-display;
   }
 }
