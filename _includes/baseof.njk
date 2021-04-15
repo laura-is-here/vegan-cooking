@@ -5,9 +5,9 @@
     <title>{{ title }}</title>
     <meta
       name="description"
-      content="{% if summary %}{{
-        summary
-      }}{% else %}A personal reference and chronicle for this queer couple's favorite vegan recipes.{% endif %}"
+      content="{% if summary %}{{ summary }}{% else %}
+      A personal reference and chronicle for this queer couple's favorite vegan recipes.
+      {% endif %}"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -48,11 +48,5 @@
     <main>
       {{ content | safe }}
     </main>
-    <!--<footer class="w-full p-8 bg-green-800 text-green-100">
-      <p class="text-2xl italic font-serif text-center block">
-        For all the love, all the growth, and all the food we've shared across
-        the years...
-      </p>
-    </footer> -->
   </body>
 </html>
