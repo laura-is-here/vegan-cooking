@@ -48,6 +48,7 @@ fields:
     labelField: 
   label: Ingredients
 pages:
+- recipes/coconut-curry-with-tofu-potatoes.md
 - recipes/lettuce-wraps.md
 - recipes/pasta-with-chickpeas.md
 - recipes/pie-dough.md
