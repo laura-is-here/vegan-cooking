@@ -48,6 +48,7 @@ fields:
     labelField: 
   label: Ingredients
 pages:
+- recipes/chimichurri.md
 - recipes/coconut-curry-with-tofu-potatoes.md
 - recipes/lettuce-wraps.md
 - recipes/mac-and-peas.md
