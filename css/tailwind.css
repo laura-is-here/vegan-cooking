@@ -22,7 +22,7 @@
   }
 
   .markdown p {
-    @apply mb-4;
+    @apply mb-4 ;
   }
 
   .markdown p:last-of-type {
