@@ -48,7 +48,13 @@ fields:
     labelField: 
   label: Ingredients
 pages:
+- recipes/chimichurri.md
+- recipes/coconut-curry-with-tofu-potatoes.md
 - recipes/lettuce-wraps.md
+- recipes/mac-and-peas.md
+- recipes/pasta-with-chickpeas.md
 - recipes/pie-dough.md
 - recipes/pizza-dough-neapolitan-style.md
 - recipes/sichuan-mala-noodles.md
+- recipes/veg-kurma.md
+- recipes/warm-potato-salad-with-chimichrri-crispy-chickpeas.md
