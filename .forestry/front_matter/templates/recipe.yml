@@ -48,6 +48,7 @@ fields:
     labelField: 
   label: Ingredients
 pages:
+- recipes/cashew-ice-cream-base.md
 - recipes/chimichurri.md
 - recipes/coconut-curry-with-tofu-potatoes.md
 - recipes/lettuce-wraps.md
