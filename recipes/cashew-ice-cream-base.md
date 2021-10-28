@@ -9,10 +9,10 @@ featureImgAttr: ''
 ingredients: []
 
 ---
-## Ingredients 
+## Ingredients
 
 * 1 1/4 cup cashews, soaked
 * 2 1/2 cup soy milk
-* 3/4 cup sugar
-* 1/4 cup corn syrup
+* 1 1/2 cup sugar
+  * Or 3/4 cup sugar and 1/4 cup corn syrup
 * Squeeze of lemon juice
