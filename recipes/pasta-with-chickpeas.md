@@ -19,7 +19,7 @@ ingredients: []
 * 2 teaspoon kosher salt, plus more to taste
 * Freshly ground black pepper or red pepper flakes, to taste
 * 2 cups cooked chickpeas or 1 can
-* 1 pound uncooked pasta (small shapes and shells work very well)
+* 1 **CUP** uncooked pasta (small shapes and shells work very well)
 * 4 cups water
 * 1 teaspoon minced fresh rosemary
 
