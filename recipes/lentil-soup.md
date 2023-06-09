@@ -8,8 +8,11 @@ tags:
 ---
 
 
+Adjust the lentil soup recipe as you'd like for an easy weeknight meal that will feed plenty or leave you with plenty of leftovers.
 
+I like to use whole coriander and cumin seeds and grind them up, but pre-ground will always do in a pinch.
 
+[Mushroom broth powder](https://www.amazon.com/Totole-Granulated-Mushroom-Bouillon-Pack/dp/B007IA2D78), nutritional yeast, and MSG are optional but recommended for added depth of flavor.
 
 ## Ingredients
 
@@ -24,9 +27,9 @@ tags:
    - 2 teaspoons curry powder
    - 2 bay leaves
    - 1 teaspoon garlic powder
-   - 2 tablespoons nutritional yeast
-   - 1 teaspoon mushroom broth powder
-   - 1/2 teaspoon MSG
+   - 2 tablespoons nutritional yeast (optional)
+   - 1 teaspoon mushroom broth powder (optional)
+   - 1/2 teaspoon MSG (optional)
    - 1 pound green or brown lentils, rinsed and picked through
    - 8 - 10 cups vegetable broth
    - 2 medium gold potatoes, diced
