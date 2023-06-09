@@ -56,16 +56,16 @@ Serve with bread, hot sauce, and/or yogurt.
 
 
 
-Storage notes: The soup can be
-refrigerated for up to 2 weeks or frozen
-for up to 3 months
-Sign up
-By signing up you agree to d
-and Privacy Policy.
-Storage notes: The soup can be
-refrigerated for up to 2 weeks or frozen
-for up to 3 months
-Sign up
+
+
+
+
+
+
+
+
+
+
 
 
 
