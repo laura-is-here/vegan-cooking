@@ -8,23 +8,64 @@ tags:
 ---
 
 
+
+
+
 ## Ingredients
 
-- 1 pound brown or large green
-lentils, rinsed and picked over
-- 10 cups vegetable broth or water
-- 2 teaspoons whole coriander seeds
-- 1 1/2 teaspoons cumin seeds
-- 2 teaspoons curry powder
-- 2 bay leaves
-- 2 medium Yukon gold, russet or red
-potatoes (1 1/4 pounds), scrubbed
-and cut into 1/2-inch dice
-- 10 ounces baby spinach, chopped
-- 2 tablespoons olive oil
-- 1 large onion, chopped
-- 2 ribs celery, with leaves, sliced
-- 2 teaspoons kosher salt, or more to taste
-- 1/2 teaspoon freshly ground black
-pepper, or more to taste
+    1 medium yellow onion, diced
+    4 ribs celery, chopped
+    4 carrots, chopped
+    2 teaspoons and a pinch of salt, divided
+    1 teaspoon black pepper
+    1 teaspoon cayenne
+    2 teaspoons coriander
+    2 teaspoons cumin
+    2 teaspoons curry powder
+    2 bay leaves
+    1 teaspoon garlic powder
+    2 tablespoons nutritional yeast
+    1 teaspoon mushroom broth powder
+    1/2 teaspoon MSG
+    1 pound green or brown lentils, rinsed and picked through
+    8 - 10 cups vegetable broth
+    2 medium gold potatoes, diced
+    10 ounces spinach, chopped
+
+## Process
+
+Heat oil in a pot over medium heat. Add onions and pinch of salt.
+
+Saute for 4-5 minutes until translucent.
+
+Add carrots and celery, continue to saute for 4 minutes.
+
+Add coriander, cumin, cayenne, black pepper, garlic powder, curry powder and bay leaves. Cook for 30 second - 1 minute until fragrant.
+
+Add broth, lentils, mushroom broth powder, nutritional yeast, MSG and remaining two teaspoons of salt.
+
+Bring to a boil over high heat, then cover partially and reduce to a simmer. Simmer for 30 minutes, adding more water or broth as needed to cover the lentils.
+
+Once the lentils are tender, add the potatoes and more water or broth as needed. Cook until potatoes are fork tender.
+
+Taste for seasoning, adding more salt or black pepper as desired.
+
+Stir in spinach, cook for 1 - 3 minutes to desired doneness.
+
+Serve with bread, hot sauce, and/or yogurt.
+You've earned 2 badges: "Editor toggler", "Status bar toggler".
+
+
+Storage notes: The soup can be
+refrigerated for up to 2 weeks or frozen
+for up to 3 months
+Sign up
+By signing up you agree to d
+and Privacy Policy.
+Storage notes: The soup can be
+refrigerated for up to 2 weeks or frozen
+for up to 3 months
+Sign up
+By signing up you agree to d
+and Privacy Policy.
 
