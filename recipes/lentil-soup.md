@@ -10,22 +10,32 @@ tags:
   - big batch
 ---
 
-## Ingredients 
 
-- 1 pound dried chickpeas
-- Water
-- 2 tablespoons coarse or kosher salt, divided
-- 2 fresh sage sprigs or 1 sage and 1 rosemary sprig
-- 4 to 5 cloves garlic, unpeeled but crushed
-- 1/4 teaspoon whole black peppercorns
+## Ingredients
 
-## Process
-
-### One day or several hours before:
-
-Place dried chickpeas in a large bowl and cover with 8 cups water and 1 tablespoon kosher salt, and let soak for as much time as you have, ideally at least 4 hours and up to even a day or two in the fridge. The benefits are simple: The longer you soak them, the less time they take to cook.
+- 1 pound brown or large green
+lentils, rinsed and picked over
+- 10 cups vegetable broth or water
 
 
-### To cook:
+- 2 teaspoons whole coriander seeds
+- 1 1/2 teaspoons cumin seeds
+- 2 teaspoons curry powder
+- 2 bay leaves
+- 2 medium Yukon gold, russet or red
+potatoes (1 1/4 pounds), scrubbed
+and cut into 1/2-inch dice
+- 10 ounces baby spinach, chopped
 
-Drain chickpeas and add them to a large (ideally 5 quart) heavy pot with 12 fresh cups of water. Add another tablespoon (or more, you can taste the liquid to get it right) of kosher salt, sage, garlic, and peppercorns and bring mixture to a full boil over high heat. Skim any foam on top; with chickpeas, it’s significant and dramatic. Boil for 2 minutes then reduce heat to a low simmer, cover partially, and cook until chickpeas are firm-tender, as little as 25 to 30 minutes (what mine took after almost 30 hours of soaking, although I found this unusual) and up to 1 1/2 hours. Let cool in their broth. I usually fish out the garlic, sage, and peppercorns so they don’t get in the way but you can leave them in for extra-infusion.
+
+
+- 2 tablespoons olive oil
+- 1 large onion, chopped
+- 2 ribs celery, with leaves, sliced
+
+- 2 teaspoons kosher salt, or more to taste
+
+
+- 1/2 teaspoon freshly ground black
+pepper, or more to taste
+
