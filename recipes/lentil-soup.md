@@ -13,24 +13,24 @@ tags:
 
 ## Ingredients
 
-    1 medium yellow onion, diced
-    4 ribs celery, chopped
-    4 carrots, chopped
-    2 teaspoons and a pinch of salt, divided
-    1 teaspoon black pepper
-    1 teaspoon cayenne
-    2 teaspoons coriander
-    2 teaspoons cumin
-    2 teaspoons curry powder
-    2 bay leaves
-    1 teaspoon garlic powder
-    2 tablespoons nutritional yeast
-    1 teaspoon mushroom broth powder
-    1/2 teaspoon MSG
-    1 pound green or brown lentils, rinsed and picked through
-    8 - 10 cups vegetable broth
-    2 medium gold potatoes, diced
-    10 ounces spinach, chopped
+   - 1 medium yellow onion, diced
+   - 4 ribs celery, chopped
+   - 4 carrots, chopped
+   - 2 teaspoons and a pinch of salt, divided
+   - 1 teaspoon black pepper
+   - 1 teaspoon cayenne
+   - 2 teaspoons coriander
+   - 2 teaspoons cumin
+   - 2 teaspoons curry powder
+   - 2 bay leaves
+   - 1 teaspoon garlic powder
+   - 2 tablespoons nutritional yeast
+   - 1 teaspoon mushroom broth powder
+   - 1/2 teaspoon MSG
+   - 1 pound green or brown lentils, rinsed and picked through
+   - 8 - 10 cups vegetable broth
+   - 2 medium gold potatoes, diced
+   - 10 ounces spinach, chopped
 
 ## Process
 
@@ -53,7 +53,7 @@ Taste for seasoning, adding more salt or black pepper as desired.
 Stir in spinach, cook for 1 - 3 minutes to desired doneness.
 
 Serve with bread, hot sauce, and/or yogurt.
-You've earned 2 badges: "Editor toggler", "Status bar toggler".
+
 
 
 Storage notes: The soup can be
@@ -66,6 +66,6 @@ Storage notes: The soup can be
 refrigerated for up to 2 weeks or frozen
 for up to 3 months
 Sign up
-By signing up you agree to d
-and Privacy Policy.
+
+
 
