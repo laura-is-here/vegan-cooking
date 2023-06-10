@@ -8,7 +8,7 @@ tags:
 ---
 
 
-Adjust the lentil soup recipe as you'd like for an easy weeknight meal that will feed plenty or leave you with plenty of leftovers.
+Adjust this lentil soup recipe as you'd like for an easy weeknight meal that will feed plenty or leave you with plenty of leftovers.
 
 I like to use whole coriander and cumin seeds and grind them up, but pre-ground will always do in a pinch.
 
